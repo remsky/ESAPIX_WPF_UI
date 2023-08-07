@@ -45,7 +45,7 @@ namespace ESAPX_StarterUI
                 var currentContent = (UIElement)win.Content;
                 var stackPanel = new DockPanel();
                 stackPanel.VerticalAlignment = VerticalAlignment.Stretch;
-                win.Content = stackPanel;
+                win.Content = stackPanel; 
                 var selectPat = new SelectPatient();
                 var selectPatContent = (FrameworkElement)selectPat.Content;
                 selectPatContent.DataContext = selectPat;

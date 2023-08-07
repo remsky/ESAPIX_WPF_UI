@@ -6,7 +6,7 @@ namespace ESAPX_StarterUI.ViewModels
 {
     public class MainViewModel : BindableBase
     {
-        private string _title = "ESAPIX Starter Application";
+        private string _title = "Automated Tools";
 
 
         public string Title
